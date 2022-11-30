@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+
+:root {
+  --color-body-text: #e7f1fe;
+  --color-body-bg: #f9c5bd;
+  --color-header-footer-bg: #c679b6;
+  --padding-header-footer: 3rem;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+   font-family: 'Muli', sans-serif;
+  background-color: var(--color-body-bg);
+  color: var(--color-body-text);
+}
+
+img {
+  width: 120%;
+  display: block;
+}
+
+h1, h2 {
+  font-family: 'Quicksand', sans-serif;
+  text-decoration-line: underline;
+}
+
+h2 {
+  margin: 2rem 0;
+  font-family: 'Quicksand', sans-serif;
+}
+
+p {
+  line-height: 1.8;
+  font-family: 'Muli', sans-serif;
+}
+
+a {
+  color: var(--color-links);
+}
+
+header {
+  background-color: var(--color-header-footer-bg);
+  padding: var(--padding-header-footer);
+  margin-bottom: 5rem;
+}
+
+nav {
+  margin-top: 2rem;
+}
+
+nav a {
+  text-decoration-line: underline;
+  margin-right: 1rem;
+  font-size: 1rem;
+}
+
+nav a:hover {
+  color: pink;
+}
+
+main {
+  padding: 1rem;
+}
+
+section {
+  margin-bottom: 10rem;
+  padding-top: 1rem;
+}
+
+section p {
+  margin-bottom: 0.5rem;
+}
+
+footer {
+  background-color: var(--color-header-footer-bg);
+  text-align: center;
+  padding: var(--padding-header-footer);
+  margin-top: 7rem;
+}
+
+.center {
+  max-width: 40rem;
+  margin: 0 auto;
+}

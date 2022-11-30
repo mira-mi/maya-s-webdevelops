@@ -1,0 +1,27 @@
+body {
+    background-color: pink;
+    background-image: url("https://th.bing.com/th/id/R.62cbbf3021778f2f6db1320a261fb88b?rik=B5t2DmKytWEtzw&riu=http%3a%2f%2fgifimage.net%2fwp-content%2fuploads%2f2018%2f04%2frain-gif-transparent-3.gif&ehk=km9EAi9H6BUU%2b6%2biAqBZXS7r2OxfIeiF0Xks2dvIk%2bg%3d&risl=&pid=ImgRaw&r=0");
+  }
+  
+  h1 {
+    color: magenta;
+    font-family: Georgia;
+    font-size: 50px;
+  }
+  
+  p {
+    color: magenta;
+    font-family: Georgia;
+    font-size: 16px;
+  }
+  
+  p1 {
+    color: magenta;
+    font-family: Georgia;
+    font-size: 16px;
+  }
+  ul {
+    color: darkmagenta;
+    font-family: Georgia;
+    font-size: 14px;
+  }
