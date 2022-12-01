@@ -1,46 +1,121 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/* 
+
+Use a combination of the following CSS flexbox properties to replicate the
+completed versions of each challenge. Not all challenges need all 4 of
+these properties:
+
+* flex-direction
+* justify-content
+* align-items
+* gap
+
+*/
+
+/* Add your own CSS to the selectors below (.a, .b, .c, .d, .e) */
+/* Each container already has display: flex */
+
+.example {
+  justify-content: center;
+  align-items: center;
+}
+
+.a {
+  justify-content: flex-end;
+  align-items:flex-end;
+}
+
+.b {
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.c {
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: row-reverse;
+}
+
+.d {
+  flex-direction: column-reverse;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.e {
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.f {
+  gap: 538px;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.g {
+  justify-content: flex-end;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 371px;
+  
+}
+
+/* Don't change any CSS below this line */
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-  font-family: 'Work Sans', sans-serif;
-  background-color: #eca4fb;
-  padding: .5rem;
+    font-family: Arial;
+    max-width: 40rem;
+    margin: 0 auto;
+    padding: .5rem;
+}
+
+p {
+  font-size: 1.25rem;
+  margin: 1em 0;
+}
+
+ul {
+  margin-left: 2rem;
+  font-size: 1.25rem;
+}
+
+header {
+    padding: 2rem 0;
+}
+
+section {
+  margin-bottom: 6rem;
+}
+
+section h2 {
+  margin: 2rem 0;
 }
 
 .container {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  
-  background-color: white;
-  border-radius: 12px;
-  gap: 1rem;
-  margin: 0 auto;
+    display: flex;
+    background-color: lightgray;
+    height: 30rem;
 }
 
- p {
-  text-align: left;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-   line-height: 1.5;
-   
-  flex-grow: 1;
-  flex-basis: 35%;
-   min-width: 9rem;
-
+.flex-item {
+    padding: 1rem;
+    font-size: 1.25rem;
+    outline: 2px solid red;
+    text-align: center;
 }
 
-img {
-  padding: 1em;
-  width: 100%;
-  flex-basis: 60%;
-  flex-grow: 1;
-  border-radius: 20px;
-}
-
+.example .flex-item {background-color: darkorange;}
+.a .flex-item {background-color: lightcoral;}
+.b .flex-item {background-color: gold;}
+.c .flex-item {background-color: lightcyan;}
+.d .flex-item {background-color: lightsteelblue;}
+.e .flex-item {background-color: lightseagreen;}
+.f .flex-item {background-color: violet;}
+.g .flex-item {background-color: cornflowerblue;}
