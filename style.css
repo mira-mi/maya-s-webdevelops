@@ -1,0 +1,44 @@
+body {
+    background-color: palevioletred;
+   
+    margin: auto;
+
+}
+
+h1 {
+    color: antiquewhite;
+    font-size: medium;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h2 {
+    color: antiquewhite;
+    font-size: small;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h3 {
+    color: antiquewhite;
+    font-size: small;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+    color: beige;
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav {
+    color: papayawhip;
+    text-decoration: dotted;
+}
+
+a:hover {
+    color: plum;
+}
+
+footer {
+    text-align: center;
+}
+
