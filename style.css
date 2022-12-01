@@ -1,42 +1,51 @@
 body {
-    background-color: palevioletred;
     margin: auto;
-}
-
-h1 {
-    color: antiquewhite;
-    font-size: medium;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-
-h2 {
-    color: antiquewhite;
-    font-size: small;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-h3 {
-    color: antiquewhite;
-    font-size: small;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-a {
-    color: beige;
-    font-size: medium;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 3rem;
+    background-color: rgb(159, 164, 230);
+    background-image: url("https://i.pinimg.com/originals/91/95/f4/9195f4dd1b69f90038f627c8af422429.gif");
 }
 
 nav {
-    color: papayawhip;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: royalblue;
+    text-align: center;
+}
+
+a {
+    color: royalblue;
     text-decoration: dotted;
+    text-align: center;
 }
 
 a:hover {
-    color: plum;
+    color: papayawhip;
 }
 
-footer {
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: blueviolet;
+    text-decoration: underline;
     text-align: center;
+}
+
+p {
+    text-align: center;
+    color: royalblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+}
+
+h2 {
+    text-align: center;
+    color: blueviolet;
+    text-decoration: overline;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+h3 {
+    color: royalblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: smaller;
 }
 
