@@ -1,0 +1,23 @@
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: plum;
+    color: palevioletred;
+}
+
+img {
+    max-width: 100%;
+}
+
+nav a {
+    color: peachpuff;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: rgb(115, 1, 70);
+}
+
+a:hover {
+    color: rgb(165, 40, 82);
+}
+
