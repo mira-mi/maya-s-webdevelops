@@ -2,15 +2,24 @@ body {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     background-color: plum;
     color: palevioletred;
+    padding: 3rem;
+    margin: auto;
 }
 
 img {
     max-width: 100%;
+    padding: 1rem;
+    border-radius: 30px;
+    flex-basis: 60%;
 }
 
 nav a {
     color: peachpuff;
     text-decoration: none;
+    text-align: right;
+    display: flex;
+   justify-content: flex-end;
+
 }
 
 nav a:hover{
@@ -20,4 +29,21 @@ nav a:hover{
 a:hover {
     color: rgb(165, 40, 82);
 }
+
+footer {
+    text-align: center;
+    font-size: 10px;
+}
+
+h1 {
+    text-align: center;
+    text-shadow: 2px 2px rgb(165, 40, 82);
+}
+
+h2{
+    text-align: center;
+    text-shadow: 2px 2px rgb(165, 40, 82);
+    
+}
+
 
