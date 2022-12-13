@@ -14,5 +14,7 @@ img {
 }
 
 h1 {
+    text-align: center;
     text-shadow: 2px 2px rgb(76, 67, 202);
 }
+

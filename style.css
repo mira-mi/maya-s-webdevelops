@@ -23,28 +23,28 @@ a:hover {
 
 h1 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: blueviolet;
+    color: rgb(52, 16, 86);
     text-decoration: underline;
     text-align: center;
 }
 
 p {
     text-align: center;
-    color: royalblue;
+    color: rgb(14, 34, 94);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: small;
 }
 
 h2 {
     text-align: center;
-    color: blueviolet;
+    color: rgb(54, 16, 86);
     text-decoration: overline;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
 
 h3 {
-    color: royalblue;
+    color: rgb(14, 34, 94);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: smaller;
     text-align: center;
