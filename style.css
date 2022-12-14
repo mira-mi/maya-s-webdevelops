@@ -7,18 +7,18 @@ body {
 
 nav {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: royalblue;
+    color: rgb(198, 0, 59);
     text-align: center;
 }
 
 a {
-    color: royalblue;
+    color: rgb(198, 0, 59);
     text-decoration: dotted;
     text-align: center;
 }
 
 a:hover {
-    color: papayawhip;
+    color: rgb(249, 206, 255);
 }
 
 h1 {
