@@ -6,15 +6,28 @@ body {
 }
 
 img {
-    max-width: 50%;
+    max-width: 30%;
     padding: 1rem;
     border-radius: 30px;
     flex-basis: 50%;
     justify-content: center;
+    text-align: center;
 }
 
 h1 {
     text-align: center;
     text-shadow: 2px 2px rgb(76, 67, 202);
+}
+
+nav a{
+    color: bisque;
+    text-decoration: none;
+    text-align: right;
+    display: flex;
+   justify-content: flex-end;
+}
+
+nav a:hover{
+    color: rgb(25, 20, 93);
 }
 
