@@ -28,7 +28,7 @@ nav a{
     text-align: right;
     display: flex;
    justify-content: flex-end;
-   font-size: 23px;
+   font-size: 19px;
 }
 
 nav a:hover{
