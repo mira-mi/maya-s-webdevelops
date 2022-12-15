@@ -40,3 +40,8 @@ p {
     font-size: 20px;
 }
 
+
+.gallery {
+    display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
