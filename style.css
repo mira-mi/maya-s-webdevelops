@@ -13,13 +13,13 @@ nav {
 }
 
 a {
-    color: rgb(152, 0, 46);
+    color: rgb(75, 0, 42);
     text-decoration: dotted;
     text-align: center;
 }
 
 a:hover {
-    color: rgb(132, 73, 101);
+    color: rgb(161, 0, 161);
 }
 
 h1 {
