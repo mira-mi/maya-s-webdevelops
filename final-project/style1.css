@@ -2,6 +2,9 @@ body {
     background-color: rgb(255, 143, 182);
     color:bisque;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: auto;
+    padding: 3rem;
+
     
 }
 
