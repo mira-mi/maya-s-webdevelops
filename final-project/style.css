@@ -37,18 +37,22 @@ footer {
 
 h1 {
     text-align: center;
-    text-shadow: 2px 2px rgb(165, 40, 82);
+    text-shadow: 2px 2px rgb(248, 144, 245);
 }
 
 h2{
     text-align: center;
-    text-shadow: 2px 2px rgb(165, 40, 82);
+    text-shadow: 2px 2px rgb(248, 144, 245);
     
 }
 
 .gallery {
     display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+p {
+    font-size: 15px;
 }
 
 
