@@ -19,6 +19,7 @@ nav a {
     text-align: right;
     display: flex;
    justify-content: flex-end;
+   font-size: 23px;
 
 }
 
@@ -37,12 +38,12 @@ footer {
 
 h1 {
     text-align: center;
-    text-shadow: 2px 2px rgb(248, 144, 245);
+    text-shadow: 2px 2px rgb(255, 207, 253);
 }
 
 h2{
     text-align: center;
-    text-shadow: 2px 2px rgb(248, 144, 245);
+    text-shadow: 2px 2px rgb(255, 207, 253);
     
 }
 
